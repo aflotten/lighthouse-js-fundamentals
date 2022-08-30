@@ -23,3 +23,23 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+// new example - logical operators
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) { // evaluates if both are true then will log to console
+  console.log("You are eligible to vote.");
+}
+
+//new example - if temperature is outside of our set range it will log to console
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+
+//new example - used not operator as a double negative (where dry weather is read as true)
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
